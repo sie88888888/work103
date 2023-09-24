@@ -1,0 +1,40 @@
+div.theme {
+    /* border: 1px solid red; */
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    padding-left: 100px;
+
+
+}
+
+div.themeL {
+    width: 60%;
+    height: 200px;
+}
+
+div.themeR {
+    width: 40%
+}
+
+div.themeR img {
+    width: 250px;
+    height: 250px;
+    padding-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(243, 161, 9);
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    color: gray;
+
+
+}

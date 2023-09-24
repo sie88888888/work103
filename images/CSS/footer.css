@@ -1,0 +1,32 @@
+footer {
+    /* border-bottom: 2px solid gray; */
+
+}
+
+div.footer_1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.footer_1 div.left {
+    /* border: 1px solid red; */
+    margin-left: 300px;
+}
+
+div.footer_1 div.right {
+    border: 1p solid blue;
+    margin-right: 300px
+}
+
+div.footer_2 {
+    /* border: 1px solid black; */
+}
+
+div.footer div.footer_2 a {
+    text-decoration: none;
+}
+
+
+div.footer div.footer_2 {
+    margin-left: 60px;
+}

@@ -1,0 +1,186 @@
+div.join {
+    /* border: 3px solid orange; */
+    font-size: 32px;
+    color: brown;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    /* border-radius: 10px; */
+    /* width: 300px; */
+
+}
+
+div.join_1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    vertical-align: center;
+
+}
+
+
+div.join_1 div.joinleft {
+    border: 3px solid orange;
+    width: 300px;
+    height: 400px;
+    margin-right: 30px;
+    border-radius: 10px;
+    padding: 0 15px;
+}
+
+div.join_1 div.joinright {
+    border: 3px solid orange;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 0 15px;
+}
+
+
+/* 中間圖 */
+
+div.join_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    vertical-align: center;
+    margin-top: 30px;
+
+
+}
+
+
+
+div.join_2 div.left {
+    border: 3px solid orange;
+    width: 300px;
+    height: 400px;
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 0 15px;
+}
+
+div.middle {
+    border: 3px solid orange;
+    width: 300px;
+    height: 400px;
+    margin-right: 30px;
+    border-radius: 10px;
+    padding: 0 15px;
+}
+
+div.right1 {
+    border: 3px solid orange;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 0 15px;
+}
+
+/* 輪播圖 */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#sliderBoard {
+    /* div */
+    width: 1000px;
+    margin: 50px auto;
+    /* border: 10px dashed #ccc; */
+
+    overflow: hidden;
+}
+
+#sliderBoard ul {
+    /* ul */
+    width: 5000px;
+
+    position: relative;
+    animation: silder 10s 4;
+}
+
+#sliderBoard li {
+    /* li */
+    width: 1000px;
+    height: 600px;
+
+    font: bold 200px Tahoma;
+    text-align: center;
+    line-height: 400px;
+
+    /* display: inline-block; */
+    float: left;
+}
+
+#sliderBoard li:nth-child(1) {
+    /* background-color: red; */
+}
+
+#sliderBoard li:nth-child(2) {
+    /* background-color: orange; */
+}
+
+#sliderBoard li:nth-child(3) {
+    /* background-color: yellow; */
+}
+
+#sliderBoard li:nth-child(4) {
+    /* background-color: green; */
+}
+
+#sliderBoard li:nth-child(5) {
+    /* background-color: blue; */
+}
+
+@keyframes silder {
+    0% {
+        left: 0px;
+    }
+
+    20% {
+        left: -1000px;
+    }
+
+    50% {
+        left: -2000px;
+    }
+
+    70% {
+        left: -3000px;
+    }
+
+    100% {
+        left: -4000px;
+    }
+}
+
+
+#sliderBoard ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+hr {
+    margin-bottom: 3px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+}
+
+span_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    color: gray
+}
