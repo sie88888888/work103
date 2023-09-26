@@ -49,7 +49,7 @@
  div.hotpeople p {
      color: black;
      font-weight: bold;
-     font-size: 32px;
+     font-size: 50px;
      text-align: center;
      padding: 0 0 25px 0;
 
@@ -93,6 +93,7 @@
      width: 100%;
      height: 100%;
      object-fit: cover;
+     border-radius: 32%;
 
  }
 
@@ -102,7 +103,9 @@
 
 
  div.hotpeople div.box1 div.box {
-     border: 6px solid orange;
+     /* border: 6px solid orange; */
+     border-radius: 32%;
+
  }
 
 
@@ -205,12 +208,12 @@
  div.box1 div.box :hover {
      transform: scale(1.2, 1.2);
 
-     transition: all 1s ease-out;
+     transition: all 2s ease-out;
  }
 
  div.pint div.content :hover {
-     transform: scale(1, 1);
+     transform: scale(1.2, 1.2);
 
-     transition: all 1s ease-out;
+     transition: all 2s ease-out;
 
  }
