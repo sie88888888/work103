@@ -45,6 +45,7 @@ div.pic_1 {
     height: 100%;
     object-fit: cover;
     padding: 20px;
+    border-radius: 50%;
 }
 
 div.new h5 {
