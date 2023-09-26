@@ -5,6 +5,11 @@
 
  }
 
+ div.people p {
+     font-size: 32px
+ }
+
+
  div.green img.people {
      margin-top: 10px;
  }
@@ -204,7 +209,7 @@
  }
 
  div.pint div.content :hover {
-     transform: scale(1.2, 1.2);
+     transform: scale(1, 1);
 
      transition: all 1s ease-out;
 
